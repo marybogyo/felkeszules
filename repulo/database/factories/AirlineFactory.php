@@ -18,6 +18,8 @@ class AirlineFactory extends Factory
     {
         return [
             //
+            'name' => fake('hu_HU')->name(),
+            'country' => fake('hu_HU')->country(),
         ];
     }
 }
